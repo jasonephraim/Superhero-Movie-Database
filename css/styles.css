@@ -3,8 +3,11 @@
 }
 
 .card-img {
-  opacity: 20%;
 }
 .card-title {
   font-size: 1.5em;
+}
+
+body {
+  background-color: black;
 }

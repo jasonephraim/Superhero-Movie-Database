@@ -10,9 +10,8 @@ request.onload = function () {
     return `<div class="card bg-dark text-white" style="max-width: 18rem;">
                 <img class="card-img" src="${movie.Poster}Card image" alt="Card image">
                 <div class="card-img-overlay">    
-                    <div class="card-header">${movie.Year}</div>
+                    <div class="card-header bg-dark">${movie.Title}</div>
                     <div class="card-body">
-                        <h5 class="card-title">${movie.Title}</h5>
                         <p class="card-text"></p>
                     </div>
                     <div class="card-footer"></div>
